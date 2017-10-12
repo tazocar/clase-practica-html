@@ -1,0 +1,62 @@
+table, th, td {
+    border: 1px solid black;
+    padding:15px;
+	text-align: center;
+}
+table {
+    border-spacing: 20px;
+}
+table#t01 {
+    width: 100%; 
+    background-color: lightblue;
+}
+table#t01 td:nth-child(even) {
+    background-color: #ee9;
+}
+table#t01 td:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+table#t01 caption{
+	color: orange;
+	font-family: Arial black;
+	font-size: 20px;
+	background-color: black;
+}
+ol{
+	font-family: arial black;
+	color: green;
+	border: 2px solid black;
+}
+.panda{
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+hr { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 3px;
+    border-color: lightblue;
+}
+blockquote{
+	color: grey;
+
+}
+.ciudad-de-mexico{
+    background-color: green;
+    color: white;
+}
+span{
+    color:yellow;
+}
+.lima{
+    background-color: red;
+    color: white;
+}
+.santiago{
+    background-color: blue;
+    color: white;
+}
